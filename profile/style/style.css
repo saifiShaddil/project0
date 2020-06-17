@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+body,
+html {
+    padding: 0em !important;
+    margin: 0em !important;
+    font-family: 'Comfortaa' !important;
+}
+
+.header-img {
+    background-image: url('/images/markus-spiske-MI9-PY5cyNs-unsplash.jpg');
+    height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar {
+    background-color: #5454e7 !important;
+}
+
+.navbar .surname {
+    color: white;
+    text-transform: uppercase;
+}
+
+.header-title {
+    padding: 200px;
+    margin: 10px;
+    color: white;
+}
+
+.header-title h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.header-title h3 {
+    font-size: 18px;
+}
+
+.header-title button {
+    margin-top: 25px;
+    padding: 10px 15px;
+    background-color: rgb(55, 55, 230);
+}
+
+.header-title button:hover {
+    background-color: rgb(96, 96, 212);
+    color: rgb(158, 156, 189);
+    transition: 0.2s ease-in;
+}
+
+#Myservices {
+    background-color: #5454e7;
+    padding: 82px;
+}
+
+.rowset {
+    padding: 5em 0em 1em;
+}
+
+.rowset .service-img {
+    margin-bottom: 25px;
+}
+
+.rowset div p {
+    line-height: 1.2em;
+}
+
+
+/* /////////////////specility */
+
+.specility {
+    height: 1000px;
+    width: 100%;
+    padding: 100px 0px 50px;
+}
+
+.specility h2 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.card {
+    margin-top: 45px;
+}
+
+.team {
+    padding: 100px 0px 50px;
+}
+
+.ourteam .bg-primary {
+    background-color: #5454e7 !important;
+}
+
+
+/* ////////////////footer */
+
+.footer {
+    height: 50px;
+}
+
+.footer p {
+    line-height: 50px;
+}
