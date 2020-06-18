@@ -9,7 +9,7 @@ html {
 }
 
 .header-img {
-    background-image: url('/images/markus-spiske-MI9-PY5cyNs-unsplash.jpg');
+    background-image: url('./images/markus-spiske-MI9-PY5cyNs-unsplash.jpg');
     height: 100vh;
     background-attachment: fixed;
     background-size: cover;
